@@ -1,5 +1,5 @@
 # Chinese → English Document Translator Dependencies
-numpy==1.26.4
+numpy==1.24.4
 opencv-python==4.6.0.66
 opencv-contrib-python==4.6.0.66
 paddleocr==2.7.0.3
@@ -7,6 +7,9 @@ paddlepaddle==2.6.2
 pdf2image==1.17.0
 streamlit==1.32.0
 pillow==10.2.0
+
+requests
+certifi
 
 # FIXED Gemini deps
 google-generativeai==0.5.4
