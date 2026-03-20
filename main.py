@@ -3,7 +3,6 @@ load_dotenv()
 import streamlit as st
 import os
 
-os.environ["FLAGS_use_mkldnn"] = "0"
 
 # --- CRITICAL: Windows CPU Fixes for PaddlePaddle ---
 # These must be set BEFORE importing paddleocr
