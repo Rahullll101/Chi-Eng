@@ -42,3 +42,4 @@ streamlit run main.py
 - **PaddleOCR CPU**: The app is configured to use `use_gpu=False` for CPU-only environments.
 - **Poppler Path**: If you get a "Poppler not found" error, double-check the path in the sidebar.
 - **Gemini API**: Ensure your API key is valid and has access to `gemini-2.0-flash`.
+- **`ERR_BLOCKED_BY_CLIENT` for `cdn.segment.com`**: This is usually caused by an ad/privacy blocker and is non-fatal. The project disables Streamlit usage telemetry via `.streamlit/config.toml` (`browser.gatherUsageStats = false`) to prevent this request.
