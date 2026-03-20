@@ -1,0 +1,13 @@
+{
+  "name": "chinese-pdf-translator",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "python3 -m streamlit run main.py --server.port 3000 --server.address 0.0.0.0",
+    "start": "python3 -m streamlit run main.py --server.port 3000 --server.address 0.0.0.0",
+    "build": "echo 'No build step needed'",
+    "lint": "echo 'No lint step needed'",
+    "postinstall": "pip install -r requirements.txt"
+  }
+}

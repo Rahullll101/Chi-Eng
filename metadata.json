@@ -1,0 +1,5 @@
+{
+  "name": "Chinese PDF Translator (Python/Streamlit)",
+  "description": "A professional Chinese-to-English document translator using PaddleOCR and Gemini AI. Optimized for technical documents and Windows CPU environments.",
+  "requestFramePermissions": []
+}
